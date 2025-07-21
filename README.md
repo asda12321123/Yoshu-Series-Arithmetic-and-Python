@@ -1,144 +1,33 @@
-もちろんです。以下は、**GitHub の `README.md` にそのままコピペできるプレーンテキストの Markdown** です。
-文字化けやエスケープの心配なく、**そのまま貼り付けて使えます**。
-
----
-
-```markdown
 # Yoshu-Series-Arithmetic-and-Python  
-予習シリーズの算数を Python で解いてみよう！
+予習シリーズ「算数」の課題を Python によって体系的に解くプロジェクト
 
 ---
 
-## 🧠 About This Project | このプロジェクトについて
+## 🧠 Project Overview | プロジェクト概要
 
-This project explores how to solve arithmetic problems from the **"Yoshu Series"** (a famous Japanese preparatory workbook for elementary school students) using the Python programming language.
+This repository is dedicated to solving arithmetic problems from the renowned Japanese preparatory textbook series **"Yoshu Series"** using the **Python programming language**. It is intended as a cross-disciplinary educational resource bridging **elementary mathematics** and **computational thinking**.
 
-このプロジェクトは、小学生向け教材「予習シリーズ・算数」の問題を **Python** を使って解いていく学習・研究リポジトリです。算数とプログラミングを同時に学べる構成になっています。
+本リポジトリでは、小学生向けの定番教材「予習シリーズ（算数）」に掲載されている問題を、**Python による数理的アプローチで解決**することを目的としています。算数の理解を深めるとともに、アルゴリズム的思考を養うことを狙いとしています。
 
-対象学年は主に **小学4年生〜6年生**。特に以下のような内容を Python で実装・可視化していきます：
+対象学年は主に **小学4年生から6年生**。扱う内容は以下の分野を含みます：
 
-- 単位の変換
-- 速さ・時間・距離
-- 割合と比
-- 場合の数と論理
-- 規則性と数列
-- 図形（面積、体積、角度）
-- 割り算と余り
-- 方程式的な考え方
-
----
-
-## 🎯 Goals | 目的
-
-- Python を使って算数の文章題を**分解・分析・解答**するスキルを養う  
-- 算数の「考え方」をコードに落とし込む練習  
-- データ構造、関数、ループなど基本的な Python の構文を自然に身につける  
-- プログラミング教育と中学受験の橋渡し
+- 単位換算
+- 速さ、時間、距離の関係
+- 割合・比の応用
+- 場合の数と論理的推論
+- 数列と規則性
+- 平面および立体図形（面積・体積・角度など）
+- 余りのある計算
+- 方程式的思考と関数の初歩
 
 ---
 
-## 📦 Structure | 構成
+## 🎯 Objectives | 目的
 
-```
-
-.
-├── README.md
-├── problems/
-│   ├── grade4/
-│   │   ├── speed\_time\_distance.py
-│   │   ├── unit\_conversion.py
-│   ├── grade5/
-│   │   ├── fraction\_ratio.py
-│   │   ├── logic\_and\_patterns.py
-│   └── grade6/
-│       ├── combinatorics.py
-│       └── geometry.py
-├── solutions/
-│   └── notebook\_samples/
-├── resources/
-│   └── yoshu\_series\_summary.md
-
-````
-
-- `problems/`：カテゴリ別に整理された問題コード  
-- `solutions/`：Jupyter Notebook形式での解答例  
-- `resources/`：教材や予習シリーズの構造に関するメモ
+- 算数の問題文を **数式モデル**に変換し、Python で実装・検証するスキルを習得する  
+- **アルゴリズム的な発想力**を育み、論理的に問題を解く手順を明確にする  
+- Python の基礎構文（条件分岐・ループ・関数定義等）を演習を通じて体得する  
+- 数理教育と初等プログラミング教育の融合的教材の試み
 
 ---
 
-## 🔧 Requirements | 必要な環境
-
-- Python 3.8 以上  
-- Jupyter Notebook（推奨）  
-- matplotlib（図形や可視化用）  
-- pandas（データ分析や表の扱いがある場合）
-
-### インストール例
-
-```bash
-pip install jupyter matplotlib pandas
-````
-
----
-
-## 📘 Sample Problem | 問題例（Grade 5）
-
-**問題：**
-1個120円のりんごを3個買い、600円を払ったら、おつりはいくら？
-
-**Pythonでの解法：**
-
-```python
-apple_price = 120
-num_apples = 3
-paid = 600
-
-total = apple_price * num_apples
-change = paid - total
-print(f"おつりは {change} 円です")
-```
-
-**出力：**
-
-```
-おつりは 240 円です
-```
-
----
-
-## 📈 Why Python? | なぜ Python？
-
-* 読みやすく書きやすい
-* 計算処理やロジック構築に適している
-* データ可視化や自動化とも連携しやすい
-* 小学生〜高校生まで幅広く学習素材として使える
-
----
-
-## 📚 License | ライセンス
-
-This project is licensed under the MIT License.
-このリポジトリは MIT ライセンスで公開されています。
-
----
-
-## 🤝 Contribution | コントリビューション歓迎！
-
-* 問題の追加・修正
-* 別解や解法の改善
-* Jupyter Notebookの可視化提案
-* 誤字・構成の提案
-
-Pull Request お待ちしています！
-
----
-
-Let's learn arithmetic and Python together!
-いっしょに「算数 × Python」で学びましょう！
-
-```
-
----
-
-必要に応じて、英語版のみや英語→日本語の翻訳補助も可能です。お気軽にどうぞ！
-```
