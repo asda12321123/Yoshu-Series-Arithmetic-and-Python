@@ -1,7 +1,5 @@
-# Yoshu-Series-Arithmetic-and-Python
-
-以下は、**GitHub 用の `README.md`（3000文字前後、日本語と英語を併記）** です。
-テーマは「予習シリーズの算数を Python で解く教材・プロジェクト」です。
+もちろんです。以下は、**GitHub の `README.md` にそのままコピペできるプレーンテキストの Markdown** です。
+文字化けやエスケープの心配なく、**そのまま貼り付けて使えます**。
 
 ---
 
@@ -32,9 +30,9 @@ This project explores how to solve arithmetic problems from the **"Yoshu Series"
 
 ## 🎯 Goals | 目的
 
-- Python を使って算数の文章題を**分解・分析・解答**するスキルを養う
-- 算数の「考え方」をコードに落とし込む練習
-- データ構造、関数、ループなど基本的な Python の構文を自然に身につける
+- Python を使って算数の文章題を**分解・分析・解答**するスキルを養う  
+- 算数の「考え方」をコードに落とし込む練習  
+- データ構造、関数、ループなど基本的な Python の構文を自然に身につける  
 - プログラミング教育と中学受験の橋渡し
 
 ---
@@ -62,20 +60,20 @@ This project explores how to solve arithmetic problems from the **"Yoshu Series"
 
 ````
 
-- `problems/`：カテゴリ別に整理された問題コード
-- `solutions/`：Jupyter Notebook形式での解答例
+- `problems/`：カテゴリ別に整理された問題コード  
+- `solutions/`：Jupyter Notebook形式での解答例  
 - `resources/`：教材や予習シリーズの構造に関するメモ
 
 ---
 
 ## 🔧 Requirements | 必要な環境
 
-- Python 3.8 以上
-- Jupyter Notebook（推奨）
-- matplotlib（図形や可視化用）
+- Python 3.8 以上  
+- Jupyter Notebook（推奨）  
+- matplotlib（図形や可視化用）  
 - pandas（データ分析や表の扱いがある場合）
 
-インストール例：
+### インストール例
 
 ```bash
 pip install jupyter matplotlib pandas
@@ -100,7 +98,7 @@ change = paid - total
 print(f"おつりは {change} 円です")
 ```
 
-出力：
+**出力：**
 
 ```
 おつりは 240 円です
@@ -135,3 +133,12 @@ Pull Request お待ちしています！
 
 ---
 
+Let's learn arithmetic and Python together!
+いっしょに「算数 × Python」で学びましょう！
+
+```
+
+---
+
+必要に応じて、英語版のみや英語→日本語の翻訳補助も可能です。お気軽にどうぞ！
+```
